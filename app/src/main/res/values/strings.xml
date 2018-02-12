@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LicznikKalorii</string>
+    <string name="title_text">Licznik Kalorii</string>
+    <string name="hint_food">Co Zjadłes?</string>
+    <string name="hint_calories">Ilość kalorii</string>
+    <string name="submit_text">Zatwierdź</string>
+    <string name="delete_item">Usuń wpis</string>
+    <string name="share_title">Udostępnij</string>
+    <string name="food_total_text">Całkowita ilość kalorii:</string>
+    <string name="cal_text">Kal.</string>
+    <string name="food_item_num">Jedzenie:</string>
+</resources>

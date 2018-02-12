@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    android:padding="16dp"
+    tools:context="com.marcinmejner.licznikkalorii.FoodItemDetailsActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/apple" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:background="@drawable/row_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detsFoodName"
+            android:text="something"
+            android:textStyle="bold"
+            android:textSize="29sp"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/detsCaloriesTitle"
+            android:text="Kalorie:"
+            android:textSize="18sp"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/detsCalioriesValue"
+            android:text="200"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/zjedzone"
+            android:text="Zjedzone:"
+            android:textSize="18sp"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/detsDateText"
+            android:text="Consumed on.."
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/detsShareButton"
+            android:text="@string/share_title"
+            android:textSize="12sp"
+            android:layout_width="86dp"
+            android:background="@drawable/circle"
+
+            android:layout_gravity="right"
+            android:layout_marginTop="45dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
